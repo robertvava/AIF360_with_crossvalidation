@@ -12,7 +12,7 @@ One dataset was been chosen for the current analysis: Adult Income Dataset.
   The protected attribute investigated in this analysis is ‘sex : female’ There are 48842 datapoints in total.  
   
   The AIF360 library provides a handy function which transforms non-binary variables and combines multiple categories into one-hot encoded variables. There are specially defined functions for both Adult and German Datasets. 
-  Additional pre-processing has been effectuated on both datasets, using the MinMax scaler. This scaler transforms each feature x to a given range. The formula for this scaler is: 
+  Additional pre-processing has been effectuated on both datasets, using the MinMax scaler. This scaler transforms each feature x to a given range. 
   
   
   An important feature of a successful machine learning model is the ability to generalize to novel data. The risk of overfitting is high when the model is being trained on the same sample data. 

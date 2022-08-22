@@ -2,12 +2,12 @@
 
 ### AIF360
 
-	The AIF360 Library is an IBM open-source project, providing datasets and several pre, in, and post processing methods.  
-	One dataset was been chosen for the current analysis: Adult Income Dataset.
+The AIF360 Library is an IBM open-source project, providing datasets and several pre, in, and post processing methods.  
+One dataset was been chosen for the current analysis: Adult Income Dataset.
   
 #### Adult Dataset 
 
-	The Adult Census Income Dataset has been extracted from the 1994 Census bureau database. There are 7 numerical and 11 categorical features in the original dataset. 
+   The Adult Census Income Dataset has been extracted from the 1994 Census bureau database. There are 7 numerical and 11 categorical features in the original dataset. 
   For this analysis, the features have been pre-processed to contain 17 binary categorical features out of which 4 are effectively unique: race, sex, age (decades) and education (years), using a predefined function available from AIF360. 
   The protected attribute investigated in this analysis is ‘sex : female’ There are 48842 datapoints in total.  
   
